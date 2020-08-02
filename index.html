@@ -13,13 +13,21 @@
 </head>
 
 <body>
+    <script>
+        function loop() {
+            this.currentTime = 0;
+            this.play();
+        }
+    </script>
     <div class="container">
         <div class="jumbotron">
             <div class="row">
                 <div class="col-sm">
                     <div class="video">
-                        <video autoplay src="assets/videos/output-compressed.mp4" poster="assets/img/IMG_1646.png"
-                            type="video/mp4" muted loop />
+                        <div style='position:relative; padding-bottom:calc(56.25% + 44px)'><iframe
+                                src='https://gfycat.com/ifr/EnviousSpectacularAmericancurl' frameborder='0'
+                                scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;'
+                                allowfullscreen></iframe></div>
                     </div>
                 </div>
                 <div class="col-sm">
@@ -153,27 +161,25 @@
                     just REALLY want that look, paint will generally give you better protection and frankly look better
                     than a bad staining job (and be cheaper too).
                 </p>
-                <img src="assets/img/IMG_1579.png" />
+                <img src="assets/img/IMG_1579.png" style="max-width: 350px;" />
                 <br />
                 <p>
                     Note that the vents in this room have been taped up and sealed. In actuality, the entirety of this
                     room was sealed (as best as was possible) to keep dust from getting everywhere.
                 </p>
-                <div class="tip">
-                    <div class="row">
-                        <div class="col-sm">
-                            <p>
-                                As a quick tip, with a long board and some clamps, you can make a makeshift
-                                tracksaw to dimension your kickboard as shown on the right here.
-                            </p>
-                            <p>
-                                Below, I'm using an epoxy wood filler to fill in some gaps in the plywood (which I
-                                bought at a discount due to the condition they were in).
-                            </p>
-                            <img src="assets/img/IMG_1585.png" style="max-height: 450px;" />
-                        </div>
-                        <div class="col-sm"><img src="assets/img/IMG_1582.png" /></div>
+                <div class="row space">
+                    <div class="col-sm">
+                        <p>
+                            As a quick tip, with a long board and some clamps, you can make a makeshift
+                            tracksaw to dimension your kickboard as shown on the right here.
+                        </p>
+                        <p>
+                            Below, I'm using an epoxy wood filler to fill in some gaps in the plywood (which I
+                            bought at a discount due to the condition they were in).
+                        </p>
+                        <img src="assets/img/IMG_1585.png" style="max-height: 450px;" />
                     </div>
+                    <div class="col-sm"><img src="assets/img/IMG_1582.png" /></div>
                 </div>
             </div>
         </div>
